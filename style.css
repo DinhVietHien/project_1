@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+}
+.main_content {
+    width:70%;
+    margin: 100px auto;
+    display: flex;
+    gap:20px;
+}
+.main_header {
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:70px;
+    background-color: green;
+}
+.main_card-sale {
+    position: absolute;
+    top:-20px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height:40px;
+    color:white;
+    background-color: red;
+    z-index: 2;
+}
+.main_card-sale-1 {
+    position: absolute;
+    top:-20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height:40px;
+    color:black;
+    background-color: yellow;
+    z-index: 1;
+}
+.main_card {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    border:1px solid black;
+}
+.main_contact {
+    z-index:10;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 100%;
+}
